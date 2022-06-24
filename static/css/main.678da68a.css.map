@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.678da68a.css","mappings":"AAAA,yBAEG,qCAA4C,CAD5C,SAEH","sources":["components/main/MainInfo.module.css"],"sourcesContent":[".wraper {\r\n   color: red;\r\n   background-color: rgba(230, 113, 113, 0.479);\r\n}"],"names":[],"sourceRoot":""}

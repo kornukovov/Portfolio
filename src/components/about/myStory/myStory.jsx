@@ -1,8 +1,8 @@
-
+import styles from "./myStory.module.css"
 
 function MyStory() {
    return (
-      <div>
+      <div className={styles.myStoryStyle}>
          MY STORY
       </div>
    )

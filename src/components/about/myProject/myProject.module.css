@@ -1,0 +1,9 @@
+.myProjectStyle {
+   display: flex;
+   justify-content: center;
+   width: 95%;
+   height: 200px;
+   border-radius: 10px;
+   background-color: yellow;
+   font-weight: bold;
+}

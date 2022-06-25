@@ -1,7 +1,8 @@
+import styles from "./mySkills.module.css"
 
 function MySkills() {
    return (
-      <div>
+      <div className={styles.mySkillsStyle}>
          MY SKILLS
       </div>
    )

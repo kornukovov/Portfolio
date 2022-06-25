@@ -18,30 +18,23 @@
    padding-top: 10px;
 }
 
-.aboutHeader button {
-   background-color: rgba(0, 0, 0, 0);
+.aboutHeader div {
+   /* background-color: yellow; */
    border: none;
    border-radius: 10px 10px 0 0;
    cursor: pointer;
    padding-top: 0;
+   
 }
-.aboutHeader button:active {
-   background-color: peru
-
-}
-
-.myStory {
-   background-color: aqua;
-   font-weight: bold;
-   cursor: pointer;
-}
-.mySkills {
-   background-color: blueviolet;
-   font-weight: bold;
-   cursor: pointer;
-}
-.myProject{
+/* .aboutHeader div:hover {
    background-color: yellow;
-   font-weight: bold;
-   cursor: pointer;
+
+} */
+
+.aboutContent {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
+   
 }

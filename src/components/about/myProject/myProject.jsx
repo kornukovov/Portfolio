@@ -1,7 +1,8 @@
+import styles from "./myProject.module.css"
 
 function MyProject() {
    return (
-      <div>
+      <div className={styles.myProjectStyle}>
          MY PROJECT
       </div>
    )

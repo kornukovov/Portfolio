@@ -1,21 +1,18 @@
 .wraper {
-   display: flex;
-   flex-direction: column;
-   height: 100%;
-   background-color: rgba(230, 113, 113, 0.479);
-   
-}
+   position: relative;
+   bottom: 35px;
+   border-radius: 20px;
 
-.reactLogo img {
-   width: 50px;
-   animation: 10s anim infinite linear;
-  
 }
 
 .reactLogo {
    display: flex;
+   justify-content: center;
    align-items: center;
-   position: absolute;
+   position: relative;
+   top: 35px;
+   right: 20px;
+   width: 190px;
    background-color: gray;
    border: 1px solid rgb(71, 67, 67);
    border-radius: 20px;
@@ -23,7 +20,14 @@
    z-index: 0;
 }
 
-.reactLogo h1, h2 {
+.reactLogo img {
+   width: 50px;
+   animation: 10s anim infinite linear;
+
+}
+
+.reactLogo h1,
+h2 {
    font-size: 90%;
    margin: 0;
    margin-left: 20px;
@@ -53,6 +57,7 @@
    from {
       transform: rotate(0deg);
    }
+
    to {
       transform: rotate(360deg);
    }

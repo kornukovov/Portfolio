@@ -1,0 +1,23 @@
+.timeContainer {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   bottom: 35px;
+   left: 65px;
+   width: 250px;
+   height: 50px;
+   background-color: gray;
+   border: 1px solid rgb(71, 67, 67);
+   border-radius: 20px;
+   color: rgb(22, 191, 233);
+   z-index: 0;
+}
+
+.timeText {
+   display: flex;
+   color: greenyellow;
+   font-size: 16px;
+   font-weight: bold;
+}

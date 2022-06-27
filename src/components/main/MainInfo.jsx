@@ -2,28 +2,25 @@ import React from "react";
 import styles from "./MainInfo.module.css";
 import avatar from "../../assets/logo.jpg";
 import reactLogo from "../../assets/react.svg";
+import TimePassed from "../timer/timer";
 
 
 function MainInfo() {
    return (
-      <div>
 
-         <div className={styles.wraper}>
+      <div className={styles.wraper}>
 
+         <div className={styles.reactLogo}>
+            <img src={reactLogo} alt="react-logo" />
             <div>
-               <img src={avatar} alt="avatar" />
+               <h1>Oleg Kornukov</h1>
+               <h2>React developer</h2>
             </div>
-
-            <div className={styles.reactLogo}>
-               <img src={reactLogo} alt="react-logo" />
-               <div>
-                  <h1>Олег Корнюков</h1>
-                  <h2>React developer</h2>
-               </div>
-            </div>
-
-            <div>age</div>
          </div>
+
+         <img style={{ borderRadius: "20px", width: "300px" }} src={avatar} alt="avatar" />
+
+         <TimePassed />
 
       </div>
 

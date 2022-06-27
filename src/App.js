@@ -1,6 +1,6 @@
 import React from "react";
+import About from "./components/about/about";
 import MainInfo from "./components/main/MainInfo";
-import Skills from "./components/skills/Skills";
 import styles from "./style.module.css";
 
 function App() {
@@ -8,18 +8,18 @@ function App() {
   return (
     <div className="App">
 
-        <header className={styles.header}>
-          <div>Developer portfolio</div>
-        </header>
+      <header className={styles.header}>
+        <div>Developer portfolio</div>
+      </header>
 
-        <main className={styles.main}>
-          <div className={styles.container}>
+      <main className={styles.main}>
+        <div className={styles.container}>
+         
+          <MainInfo />
+          <About />
 
-            <MainInfo />
-            <Skills />
-
-          </div>
-        </main>
+        </div>
+      </main>
     </div>
   );
 }

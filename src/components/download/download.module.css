@@ -1,6 +1,6 @@
 .downloadWrapper {
    display: flex;
-   flex-direction: column;
+   justify-content: space-around;
    align-items: center;
    width: 300px;
    font-size: 90%;
@@ -13,10 +13,6 @@
    text-decoration: none;
 }
 
-a {
-   text-decoration: none;
-   color: black;
-}
 
 @media (max-width: 1080px) {
 

@@ -10,19 +10,14 @@ function Download() {
    }
 
    return (
-      <div className={styles.downloadWrapper}>
-         {/* <div>
-            <p>Имя: Олег</p>
-            <p>Фамилия: Корнюков</p>
-            <p>Возраст: 29 лет</p>
-            <p>Место жительства: г. Краснодар</p>
-         </div> */}
+     
 
-         <div onClick={downloadResume}>
+         <div className={styles.downloadWrapper}
+         onClick={downloadResume}>
             Download portfolio
             <img src={downloadSvg} alt="download-logo" width="20px" />
          </div>
-      </div>
+  
    )
 }
 

@@ -1,11 +1,17 @@
 import React from "react";
+
 import styles from "./MainInfo.module.css";
 import avatar from "../../assets/logo.jpg";
 import reactLogo from "../../assets/react.svg";
+
 import TimePassed from "../timer/timer";
+import Download from "../download/download";
 
 
 function MainInfo() {
+
+  
+
    return (
 
       <div className={styles.wraper}>
@@ -21,7 +27,9 @@ function MainInfo() {
          <img className={styles.avatar} src={avatar} alt="avatar" />
 
          <TimePassed />
-
+         <div >
+         <Download/>
+         </div>
       </div>
 
    )

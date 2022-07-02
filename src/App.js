@@ -8,19 +8,23 @@ function App() {
 
   return (
     <div className="App">
-        <header className={styles.header}>
-          <div>Developer portfolio</div>
-          <SocialLinks />
-        </header>
+      <header className={styles.header}>
+        <div>Developer portfolio</div>
+        <SocialLinks />
+      </header>
 
-        <main className={styles.main}>
-          <div className={styles.container}>
+      <main className={styles.main}>
+        <div className={styles.container}>
+          
+          <MainInfo />
+          <About />
 
-            <MainInfo />
-            <About />
+         
+        </div>
 
-          </div>
-        </main>
+
+      </main>
+      
     </div>
   );
 }

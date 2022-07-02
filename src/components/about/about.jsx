@@ -3,7 +3,7 @@ import MyProject from "./myProject/myProject";
 import MySkills from "./mySkills/mySkills";
 import MyStory from "./myStory/myStory";
 import styles from "./about.module.css"
-import SocialLinks from "./socialLinks/socialLinks";
+
 
 function About() {
 
@@ -24,7 +24,7 @@ function About() {
       setActive(MyProject);
       setColor("myProject");
    }
-
+   
 
    return (
       <div className={styles.wraperContainer}>
@@ -46,8 +46,8 @@ function About() {
             <div className={styles.aboutContent}>
                {active}
             </div>
+            
          </div>
-         {/* <SocialLinks /> */}
       </div>
 
    )

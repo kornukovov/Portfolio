@@ -61,3 +61,31 @@
 
 
 }
+@media (max-width: 650px) {
+
+   .main {
+      height: 100%;
+   }
+
+   .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: center;
+      height: 95%;
+      border-radius: 0;
+   }
+
+   .header {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: fixed;
+      background-color: rgba(0, 0, 0, 0.808);
+      /* border-bottom: 2px solid silver; */
+      color: silver;
+      font-size: 30px;
+
+   }
+
+}

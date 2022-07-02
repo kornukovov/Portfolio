@@ -1,9 +1,9 @@
 .mySkillsStyle {
    display: flex;
    justify-content: center;
+   align-items: center;
    width: 95%;
-   height: 200px;
    border-radius: 10px;
-   background-color: yellow;
+   background-color: rgb(161, 150, 150);
    font-weight: bold;
 }

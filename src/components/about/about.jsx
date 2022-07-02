@@ -30,15 +30,15 @@ function About() {
       <div className={styles.wraperContainer}>
          <div className={styles.wraper}>
             <div className={styles.aboutHeader}>
-               <div style={{ backgroundColor: color === "mySory" && "yellow", fontWeight: color === "mySory" && "bold" }}
+               <div style={{ backgroundColor: color === "mySory" && "rgb(161, 150, 150)", fontWeight: color === "mySory" && "bold" }}
                   onClick={addMyStory}>
                   My story
                </div>
-               <div style={{ backgroundColor: color === "mySkills" && "yellow", fontWeight: color === "mySkills" && "bold" }}
+               <div style={{ backgroundColor: color === "mySkills" && "rgb(161, 150, 150)", fontWeight: color === "mySkills" && "bold" }}
                   onClick={addMySkills}>
                   My skills
                </div>
-               <div style={{ backgroundColor: color === "myProject" && "yellow", fontWeight: color === "myProject" && "bold" }}
+               <div style={{ backgroundColor: color === "myProject" && "rgb(161, 150, 150)", fontWeight: color === "myProject" && "bold" }}
                   onClick={addMyProject}>
                   My project
                </div>

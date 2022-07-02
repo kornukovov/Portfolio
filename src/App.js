@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./components/about/about";
+import SocialLinks from "./components/about/socialLinks/socialLinks";
 import MainInfo from "./components/main/MainInfo";
 import styles from "./style.module.css";
 
@@ -7,19 +8,19 @@ function App() {
 
   return (
     <div className="App">
+        <header className={styles.header}>
+          <div>Developer portfolio</div>
+          <SocialLinks />
+        </header>
 
-      <header className={styles.header}>
-        <div>Developer portfolio</div>
-      </header>
+        <main className={styles.main}>
+          <div className={styles.container}>
 
-      <main className={styles.main}>
-        <div className={styles.container}>
-         
-          <MainInfo />
-          <About />
+            <MainInfo />
+            <About />
 
-        </div>
-      </main>
+          </div>
+        </main>
     </div>
   );
 }

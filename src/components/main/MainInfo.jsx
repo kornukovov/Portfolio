@@ -18,7 +18,7 @@ function MainInfo() {
             </div>
          </div>
 
-         <img style={{ borderRadius: "20px", width: "300px" }} src={avatar} alt="avatar" />
+         <img className={styles.avatar} src={avatar} alt="avatar" />
 
          <TimePassed />
 

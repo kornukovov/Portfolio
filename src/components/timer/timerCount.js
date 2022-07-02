@@ -1,6 +1,6 @@
 export function TimeCounter() {
 
-  const prevTime = 1656340833
+  const prevTime = 1640995200000
   const currentTime = Date.now()
 
   let diff = currentTime - prevTime

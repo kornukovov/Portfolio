@@ -2,7 +2,11 @@
    position: relative;
    bottom: 35px;
    border-radius: 20px;
+}
 
+.avatar {
+   border-radius: 20px; 
+   width: 300px;
 }
 
 .reactLogo {
@@ -39,7 +43,14 @@ h2 {
 
 
 
+@media (max-width: 1080px) {
+   .avatar {
+      border-radius: 20px; 
+      width: 600px;
+   }
 
+   
+}
 
 
 

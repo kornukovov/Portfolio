@@ -32,22 +32,22 @@ function About() {
             <div className={styles.aboutHeader}>
                <div style={{ backgroundColor: color === "mySory" && "yellow", fontWeight: color === "mySory" && "bold" }}
                   onClick={addMyStory}>
-                  myStory
+                  My story
                </div>
                <div style={{ backgroundColor: color === "mySkills" && "yellow", fontWeight: color === "mySkills" && "bold" }}
                   onClick={addMySkills}>
-                  mySkills
+                  My skills
                </div>
                <div style={{ backgroundColor: color === "myProject" && "yellow", fontWeight: color === "myProject" && "bold" }}
                   onClick={addMyProject}>
-                  myProject
+                  My project
                </div>
             </div>
             <div className={styles.aboutContent}>
                {active}
             </div>
          </div>
-         <SocialLinks />
+         {/* <SocialLinks /> */}
       </div>
 
    )

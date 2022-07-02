@@ -3,7 +3,11 @@
    justify-content: space-around;
    align-items: center;
    width: 100px;
-   height: 50px;
-   background-color: peru;
+   height: 100%;
+   /* background-color: peru; */
    border-radius: 10px;
+}
+
+.socialLinks Github {
+   color: silver;
 }

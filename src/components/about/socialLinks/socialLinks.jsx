@@ -8,10 +8,10 @@ function SocialLinks() {
    return (
       <div className={styles.socialLinks}>
          <a href="https://github.com/kornukovov" target="_blank" rel="noreferrer" >
-            <img src={github} alt="github" />
+            <img src={github} alt="github" width="30px" />
          </a>
 
-         <a href="#" target="_blank" rel="noreferrer">
+         <a href="https://t.me/kornukovov" target="_blank" rel="noreferrer">
             <img src={telegram} alt="telegram" />
          </a>
       </div>

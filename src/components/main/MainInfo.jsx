@@ -5,7 +5,7 @@ import avatar from "../../assets/logo.jpg";
 import reactLogo from "../../assets/react.svg";
 
 import TimePassed from "../timer/timer";
-import Download from "../download/download";
+
 
 
 function MainInfo() {
@@ -27,9 +27,7 @@ function MainInfo() {
          <img className={styles.avatar} src={avatar} alt="avatar" />
 
          <TimePassed />
-         <div >
-         <Download/>
-         </div>
+
       </div>
 
    )

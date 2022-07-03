@@ -2,7 +2,6 @@
    display: flex;
    flex-direction: column;
    padding: 10px;
-   line-height: 30px;
    width: 95%;
    border-radius: 10px;
    background-color: rgb(161, 150, 150);
@@ -12,4 +11,13 @@
    display: flex;
    align-items: center;
    gap: 10px;
+}
+
+@media (max-width: 650px) {
+
+   .mySkillsStyle a {
+     font-size: 85%;
+     word-wrap: break-word;
+   }
+
 }

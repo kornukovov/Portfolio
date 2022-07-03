@@ -1,0 +1,17 @@
+.contentStyles {
+   display: flex;
+   justify-content: space-around;
+   /* align-items: center; */
+   width: 100%;
+
+}
+
+@media (max-width: 1100px) {
+
+   .contentStyles {
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+   }
+
+}

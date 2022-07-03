@@ -1,13 +1,14 @@
 import React from "react";
-import About from "./components/about/about";
 import SocialLinks from "./components/about/socialLinks/socialLinks";
-import MainInfo from "./components/main/MainInfo";
+import { Content } from "./components/content/content";
 import styles from "./style.module.css";
+import Download from "./components/download/download";
 
 function App() {
 
   return (
     <div className="App">
+
       <header className={styles.header}>
         <div>Developer portfolio</div>
         <SocialLinks />
@@ -15,16 +16,11 @@ function App() {
 
       <main className={styles.main}>
         <div className={styles.container}>
-          
-          <MainInfo />
-          <About />
-
-         
+          <Content />
+          <Download />
         </div>
-
-
       </main>
-      
+
     </div>
   );
 }

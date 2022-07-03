@@ -1,29 +1,25 @@
 .downloadWrapper {
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
+   gap: 10px;
    align-items: center;
    width: 300px;
    font-size: 90%;
-   background-color: gray;
-   border: 1px solid rgb(71, 67, 67);
-   border-radius: 15px;
-   padding: 5px;
    cursor: pointer;
-   outline: none;
-   text-decoration: none;
+   margin: 25px;
 }
 
 
-@media (max-width: 1080px) {
+/* @media (max-width: 1080px) {
 
    .downloadWrapper {
       width: 600px;
    }
 
-}
+} */
 
-@media (max-width: 650px) {
+/* @media (max-width: 650px) {
    .downloadWrapper {
       width: 300px;
    }
-}
+} */

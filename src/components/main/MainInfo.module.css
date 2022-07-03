@@ -2,11 +2,12 @@
    position: relative;
    bottom: 35px;
    border-radius: 20px;
+   width: 300px;
 }
 
 .avatar {
    border-radius: 20px; 
-   width: 300px;
+   width: 100%;
 }
 
 .reactLogo {
@@ -41,23 +42,46 @@ h2 {
 
 
 
-
-
-
-@media (max-width: 1080px) {
-   .avatar {
-      border-radius: 20px; 
-      width: 600px;
-   }
-
+@media (max-width: 1100px) {
+.wraper {
+   position: relative;
+   bottom: 35px;
+   border-radius: 20px;
+   width: 600px;
 }
 
-@media (max-width: 650px) {
+.reactLogo {
+   top: 50px;
+   right: 10px;
+   width: 250px;
+   font-size: 140%;
+   border-radius: 30px;
+}
 
-   .avatar {
-      border-radius: 20px; 
-      width: 300px;
-   }
+.reactLogo img {
+   width: 65px;
+}
+}
+
+@media (max-width: 770px) {
+
+  .wraper {
+   position: relative;
+   bottom: 35px;
+   border-radius: 15px;
+   width: 270px;
+}
+
+.reactLogo {
+   top: 25px;
+   right: 10px;
+   width: 150px;
+   font-size: 80%;
+}
+
+.reactLogo img {
+   width: 30px;
+}
 
 }
 

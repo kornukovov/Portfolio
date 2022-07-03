@@ -7,25 +7,25 @@ import pazzle from "../../../assets/pazzle.svg"
 function MySkills() {
    return (
       <div className={styles.mySkillsStyle}>
-         <a><b>Навыки:</b></a>
+         <a><b>Навыки:</b></a><br/>
          <a>
             <img src={business} alt="business" width="20px" />
             Понимание приоритета бизнесса в любой разработке;
-         </a>
+         </a><br/>
          <a>
             <img src={oneUS} alt="oneUs" width="20px" />
             Самостоятельно решаю любые поставленные задачи;
-         </a>
+         </a><br/>
          <a>
          <img src={flex} alt="flex" width="20px" />
             Отзывчивая и адаптивная верстка;
-            </a>
+            </a><br/>
          <a>
          <img src={pazzle} alt="pazzle" width="20px" />
             Понимание алгоритмов и умение их применять;
             </a>
-         <br />
-         <a><b>Инструменты разработки:</b></a>
+         <br/>
+         <a><b>Инструменты разработки:</b></a><br/>
          <a>Google 10 из 10;</a>
          <a>JavaScript</a>
          <a>CSS</a>

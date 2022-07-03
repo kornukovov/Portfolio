@@ -3,7 +3,18 @@
    flex-direction: column;
    padding: 10px;
    line-height: 30px;
+   white-space: break-spaces;
    width: 95%;
    border-radius: 10px;
    background-color: rgb(161, 150, 150);
+}
+
+@media (max-width: 650px) {
+
+   .myStoryStyle {
+    font-size: 85%;
+    line-height: 20px;
+
+   }
+
 }
